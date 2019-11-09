@@ -1,0 +1,136 @@
+body {
+    background: #e5eeee;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+​
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+​
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+​
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+​
+a {
+    text-decoration: underline;
+    outline: none;
+}
+​
+a:hover {
+    text-decoration: none;
+}
+​
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+.form {
+    width: 400px;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    margin: 100px auto;
+}
+.container {
+    width: 260px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.join-us {
+    margin: 0 0 55px 0;
+}
+.join--link {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.join--link:hover {
+    border-bottom: 2px solid #e66a64;
+    opacity: 1;   
+}
+.user-box {
+    display: block;
+    margin: 20px 0 0 0;
+}
+.user-name {
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+}
+.user-data {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border-color: #fff;
+    color: #fff;
+    box-sizing: border-box;
+}
+.check {
+    margin: 20px 7px 0 0;
+    position: relative;
+}
+.check-text {
+    color: #fff;
+    font-size: 13px;
+}
+.our-check:hover,
+.check-text:checked + .our-check {
+    cursor: pointer;
+}
+.button {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    background: #23ae92;
+    margin: 35px 0;
+    font-weight: 500;
+    outline: none;
+}
+.button:hover {
+    background: #0f8b73;
+    cursor: pointer;
+}
+.if-forgote {
+    display: flex;
+    justify-content: space-between;
+}
+.forgote {
+    padding: 0 20px 0 0;
+    margin: 0 10px 0 0;
+    color: #b3b2ca;
+    font-size: 12px;
+    border-bottom: 1px solid #b3b2ca;
+}
+.if-fogote--link {
+    text-decoration: none;
+}
